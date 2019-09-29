@@ -43,7 +43,6 @@ for subj_id in SUBJ_IDS:
     print('ring-little overlap: '+str(dice(finger_pattern_pvals[2,:]<PVAL_THRESH,finger_pattern_pvals[3,:]<PVAL_THRESH)))
     print('--------------------------------')
 
-
 # sample hemodynamic response
 # you'll need to convolve your experimental design with this
 # e.g. using np.convolve(my_sample_signal,gen_hrf())
